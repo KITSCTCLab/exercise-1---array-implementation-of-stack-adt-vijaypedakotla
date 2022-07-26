@@ -28,7 +28,8 @@ class Stack:
         return x
 
     def status(self):
-        # Write code here
+        for elements in self.items:
+            print(element)
 
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
